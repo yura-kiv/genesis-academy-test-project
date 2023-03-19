@@ -1,0 +1,29 @@
+.course-info-text {
+  display: grid;
+  grid-template-areas:
+    "a a"
+    "b c";
+
+  & ul {
+    grid-area: c;
+    display: block;
+
+    li {
+      list-style-type: none;
+    }
+  }
+
+  & h2 {
+    margin-bottom: 10px;
+    display: block;
+    grid-area: a;
+  }
+
+  & span {
+    justify-self: center;
+    display: block;
+    font-weight: 600;
+    font-size: 1.1em;
+    grid-area: b;
+  }
+}

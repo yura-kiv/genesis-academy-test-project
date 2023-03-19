@@ -1,0 +1,20 @@
+.course-post {
+  background-color: rgb(244, 244, 244);
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+  transition: all 0.3s;
+  max-width: 600px;
+  width: 100%;
+  min-width: 500px;
+  padding: 0px 15px;
+  padding-bottom: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px;
+  }
+}

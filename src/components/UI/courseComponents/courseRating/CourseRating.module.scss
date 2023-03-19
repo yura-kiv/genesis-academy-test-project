@@ -1,0 +1,14 @@
+.course_rating {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  background-color: rgb(244, 244, 244);
+  padding: 7px;
+  border-radius: 13px;
+  width: auto;
+  text-align: center;
+  font-weight: 600;
+}

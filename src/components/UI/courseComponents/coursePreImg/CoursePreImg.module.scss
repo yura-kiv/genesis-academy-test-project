@@ -1,0 +1,43 @@
+.preview_image {
+  position: relative;
+  margin: 0px;
+  padding: 0px 0px 58% 0px;
+  overflow: hidden;
+  transition: all 0.3s;
+  margin: 0px -15px;
+
+  &_disable_video:hover::before {
+    content: "Video not found...";
+    color: rgb(159, 68, 29);
+    backdrop-filter: blur(5px);
+    padding: 30px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(38, 38, 38, 0.2);
+    z-index: 1;
+  }
+
+  &__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    border: rgb(244, 244, 244) solid 10px;
+    border-radius: 25px;
+    z-index: 0;
+  }
+
+  &:hover {
+    scale: 1.01;
+  }
+}
