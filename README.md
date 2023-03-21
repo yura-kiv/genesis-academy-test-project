@@ -3,6 +3,8 @@ npm i
 
 npm start
 
+****************************************************************
+
 Case-task for passing in the Genesis Academy. Written with React.
 
 Used custom hooks, API requests using axios, custom created styles for components, routing using "react-router-dom".
