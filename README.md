@@ -1,7 +1,7 @@
 # genesisAcademy_project
-npm i
+###npm i
 
-npm start
+###npm start
 
 ****************************************************************
 
