@@ -19,4 +19,9 @@ Created an example of pagination without using libraries.
 
 ![image](https://user-images.githubusercontent.com/94392546/226566264-369e4d90-fe3d-4442-a207-368996a0c45e.png)
 
+Added a data download loader for the application.
+
+![image](https://user-images.githubusercontent.com/94392546/226568113-36e16859-2324-4d49-a57a-91c896360ebd.png)
+
+
 
